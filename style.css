@@ -29,14 +29,14 @@ ul {
 .hero-main {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     padding: 50px;
     flex: 1;
 }
 
 .title {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 800;
     color: #f9faf8;
 }
 
@@ -79,7 +79,7 @@ a {
 
 .information-header {
     font-size: 36px;
-    font-weight: extra-bold;
+    font-weight: 800;
     color: #1f2937;
 }
 
