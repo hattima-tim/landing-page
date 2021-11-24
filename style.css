@@ -5,6 +5,9 @@ body {
 
 .hero {
     background-color: #1f2937;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -26,8 +29,9 @@ ul {
 .hero-main {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 50px;
+    flex: 1;
 }
 
 .title {
@@ -58,8 +62,37 @@ a {
     text-decoration: none;
 }
 
-img {
+.hero-image {
     width: 450px;
     height: auto;
-    margin-left: 40px;
+    margin-left: 20px;
+}
+
+.information-section {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+}
+
+.product-image {
+    width: 150px;
+    height: auto;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#product-one {
+    flex: 0 1 200px;
 }
