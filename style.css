@@ -96,3 +96,24 @@ a {
 #product-one {
     flex: 0 1 200px;
 }
+
+.quote-section {
+    display: flex;
+    background-color: #e5e7eb;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.quote-container {
+    flex-basis: 700px;
+}
+
+.quote {
+    font-style: italic;
+}
+
+#quote-author {
+    text-align: end;
+}
